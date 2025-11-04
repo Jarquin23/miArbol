@@ -24,10 +24,10 @@ namespace miArbol
             tvArbol.ExpandAll();
         }
 
-        
+
         private void tvArbol_AfterSelect_1(object sender, TreeViewEventArgs e)
         {
-            
+
         }
 
         private void tvArbol_DrawNode(object sender, DrawTreeNodeEventArgs e)
@@ -42,5 +42,5 @@ namespace miArbol
                 e.DrawDefault = true;
             }
         }
+    }
 }
-    
